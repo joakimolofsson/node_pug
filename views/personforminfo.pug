@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Person Form Info
+    body
+        if(type == "error")
+            p(style = "color: red") #{message}
+        else
+            p New Person:
+            p name: #{person.name}, 
+            p age: #{person.age} 
+            p nationality: #{person.nationality}

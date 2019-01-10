@@ -1,0 +1,19 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "Node App Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joakim Olofsson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2",
+    "multer": "^1.4.1",
+    "pug": "^2.0.3"
+  }
+}

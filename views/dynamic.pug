@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title="Dynamic"
+    body
+        p This title is #{title}
+
+        if(user)
+            p Hi! User: #{user.name}
+        else
+            p Plz sign in!
